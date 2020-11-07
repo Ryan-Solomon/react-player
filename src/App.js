@@ -1,7 +1,14 @@
 import React from 'react';
+import Player from './components/Player';
+import Song from './components/Song';
 
 function App() {
-  return <h1>React-Player</h1>;
+  return (
+    <div className='App'>
+      <Song />
+      <Player />
+    </div>
+  );
 }
 
 export default App;
